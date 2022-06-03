@@ -6,8 +6,8 @@ gem 'ohm'
 gem 'ohm-contrib'
 gem 'oj'
 gem 'oj_mimic_json'
-gem 'sinatra', '>= 2.0.7'
-gem 'sinatra-contrib', '>= 2.0.7'
+gem 'sinatra', '>= 2.0.8.1'
+gem 'sinatra-contrib', '>= 2.0.8.1'
 gem 'unicorn'
 
 group :test do
