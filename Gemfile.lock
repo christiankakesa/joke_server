@@ -4,7 +4,6 @@ GEM
     addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     ast (2.4.0)
-    backports (3.17.2)
     capybara (3.37.1)
       addressable
       matrix
@@ -43,7 +42,7 @@ GEM
       ast (~> 2.4.0)
     public_suffix (4.0.7)
     racc (1.6.0)
-    rack (2.2.3)
+    rack (2.2.3.1)
     rack-protection (2.2.0)
       rack
     rack-test (1.1.0)
@@ -54,7 +53,7 @@ GEM
     rake (13.0.1)
     redic (1.5.0)
       hiredis
-    regexp_parser (2.4.0)
+    regexp_parser (2.5.0)
     rexml (3.2.5)
     rspec (3.5.0)
       rspec-core (~> 3.5.0)
@@ -118,8 +117,8 @@ DEPENDENCIES
   rspec
   rubocop (>= 0.80.0)
   simplecov (>= 0.14.1)
-  sinatra (>= 2.2.0)
-  sinatra-contrib (>= 2.2.0)
+  sinatra (>= 2.0.8.1)
+  sinatra-contrib (>= 2.0.8.1)
   unicorn
 
 BUNDLED WITH
