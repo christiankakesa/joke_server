@@ -1,8 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.8.0)
-      public_suffix (>= 2.0.2, < 5.0)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     ast (2.4.0)
     backports (3.17.2)
     capybara (3.35.3)
@@ -39,8 +39,8 @@ GEM
     parallel (1.19.1)
     parser (2.7.0.2)
       ast (~> 2.4.0)
-    public_suffix (4.0.6)
-    racc (1.5.2)
+    public_suffix (5.0.0)
+    racc (1.6.0)
     rack (2.2.3)
     rack-protection (2.0.8.1)
       rack
