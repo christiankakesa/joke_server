@@ -19,7 +19,7 @@ GEM
     jaro_winkler (1.5.4)
     kgio (2.11.0)
     mini_mime (1.1.0)
-    mini_portile2 (2.5.1)
+    mini_portile2 (2.5.3)
     multi_json (1.14.1)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
