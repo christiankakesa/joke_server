@@ -1,8 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.8.0)
-      public_suffix (>= 2.0.2, < 5.0)
+    addressable (2.8.1)
+      public_suffix (>= 2.0.2, < 6.0)
     ast (2.4.0)
     capybara (3.37.1)
       addressable
@@ -21,8 +21,8 @@ GEM
     matrix (0.4.2)
     mini_mime (1.1.2)
     mini_portile2 (2.8.0)
-    multi_json (1.14.1)
-    mustermann (1.1.1)
+    multi_json (1.15.0)
+    mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
     nest (3.0.0)
       redic
@@ -40,10 +40,10 @@ GEM
     parallel (1.19.1)
     parser (2.7.0.2)
       ast (~> 2.4.0)
-    public_suffix (4.0.7)
+    public_suffix (5.0.0)
     racc (1.6.0)
     rack (2.2.4)
-    rack-protection (2.2.0)
+    rack-protection (3.0.2)
       rack
     rack-test (2.0.2)
       rack (>= 1.3)
@@ -82,20 +82,20 @@ GEM
       docile (~> 1.1)
       simplecov-html (~> 0.11)
     simplecov-html (0.12.2)
-    sinatra (2.2.0)
-      mustermann (~> 1.0)
-      rack (~> 2.2)
-      rack-protection (= 2.2.0)
+    sinatra (3.0.2)
+      mustermann (~> 3.0)
+      rack (~> 2.2, >= 2.2.4)
+      rack-protection (= 3.0.2)
       tilt (~> 2.0)
-    sinatra-contrib (2.2.0)
+    sinatra-contrib (3.0.2)
       multi_json
-      mustermann (~> 1.0)
-      rack-protection (= 2.2.0)
-      sinatra (= 2.2.0)
+      mustermann (~> 3.0)
+      rack-protection (= 3.0.2)
+      sinatra (= 3.0.2)
       tilt (~> 2.0)
     stal (0.3.0)
       redic (~> 1.5)
-    tilt (2.0.10)
+    tilt (2.0.11)
     unicode-display_width (1.6.1)
     unicorn (5.2.0)
       kgio (~> 2.6)
@@ -108,7 +108,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
-  capybara (>= 3.35.3)
+  capybara (>= 3.37.1)
   ohm
   ohm-contrib
   oj
@@ -117,8 +117,8 @@ DEPENDENCIES
   rspec
   rubocop (>= 0.80.0)
   simplecov (>= 0.14.1)
-  sinatra (>= 2.0.8.1)
-  sinatra-contrib (>= 2.0.8.1)
+  sinatra (>= 2.2.0)
+  sinatra-contrib (>= 2.2.0)
   unicorn
 
 BUNDLED WITH
